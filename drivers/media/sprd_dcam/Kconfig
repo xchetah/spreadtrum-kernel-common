@@ -1,0 +1,24 @@
+
+config CAMERA_FLASH_SGM3140
+	bool "ctrl flash via sgm3140"
+
+config CAMERA_FLASH_PARALLEL_BG
+	bool "ctrl flash via parallel connect bg"
+
+config CAMERA_FLASH_GPIO_8132
+	bool "ctrl flash via gpio & 8132"
+
+config CAMERA_FLASH_GPIO_CTRL
+	bool "ctrl flash via gpio"
+
+config CAMERA_FLASH_SPRD_GPIO
+	bool "ctrl flash via gpio"
+
+config CAMERA_FLASH_SM5701
+	bool "ctrl flash via sm5701"
+
+config CAMERA_FLASH_SPRD_SM5701
+	bool "ctrl flash via sm5701"
+
+config CAMERA_FLASH_COMMON
+	bool "ctrl flash in common"
